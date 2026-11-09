@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motmot Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-hearts" id="backgroundHearts"></div>
+
+    <!-- OPENING SCREEN -->
+    <section class="opening-screen" id="openingScreen">
+
+        <div class="envelope-wrapper" id="openEnvelope">
+
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-letter"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-front"></div>
+
+                <div class="heart-seal">♥</div>
+            </div>
+
+        </div>
+
+        <h2>A Little Surprise</h2>
+        <p>Someone has something special for you ♡</p>
+
+        <button class="open-button" id="openButton">
+            Open My Letter
+        </button>
+
+    </section>
+
+
+    <!-- LETTER SCREEN -->
+    <section class="letter-screen" id="letterScreen" hidden>
+
+        <div class="letter-window">
+
+            <div class="window-header">
+
+                <span class="window-title">LOVE</span>
+
+                <div class="window-controls">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="letter-content">
+
+                <h2 id="question">
+                    Happy 1 month, my love!<br>
+                    Still love me?
+                </h2>
+
+                <!-- PIXEL CAT -->
+                <div class="pixel-cat">
+
+                    <div class="cat-ear left-ear"></div>
+                    <div class="cat-ear right-ear"></div>
+
+                    <div class="cat-face">
+
+                        <div class="cat-eye left-eye"></div>
+                        <div class="cat-eye right-eye"></div>
+
+                        <div class="cat-cheek left-cheek"></div>
+                        <div class="cat-cheek right-cheek"></div>
+
+                        <div class="cat-nose"></div>
+
+                        <div class="cat-mouth"></div>
+
+                    </div>
+
+                    <div class="cat-heart">♥</div>
+
+                </div>
+
+                <div class="button-container" id="buttonContainer">
+
+                    <button id="yesButton">YES</button>
+
+                    <button id="noButton">NO</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SUCCESS SCREEN -->
+    <section class="success-screen" id="successScreen" hidden>
+
+        <div class="success-card">
+
+            <div class="success-hearts">♥ ♥ ♥</div>
+
+            <h1>YAYYY!</h1>
+
+            <p>
+                I knew you would say yes!
+                <br>
+                Happy 1 month, my love!
+            </p>
+
+            <div class="celebration-cat">
+                 💗 
+            </div>
+
+            <p class="love-message">
+                Thank you for being my favorite person.
+                Here's to more beautiful memories together!
+            </p>
+
+            <button id="replayButton">
+                Replay
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
